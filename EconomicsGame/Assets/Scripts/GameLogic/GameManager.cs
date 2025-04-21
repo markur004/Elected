@@ -1,5 +1,6 @@
 using System;
 using GameLogic;
+using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,14 +24,14 @@ public class GameManager : MonoBehaviour
 
     public void Start()
     {
-        Indexs CountryStats = new Indexs();
-
+        CountryStats = new Indexs();
+        GamePlayUIHandler.Instance.SetIndexesUI(CountryStats);
     }
 
     public void NextTurn()
     {
         currentTurn++;
-
+        GamePlayUIHandler.Instance.SetIndexesUI(CountryStats);
         if (currentTurn > maxTurns)
         {
             EndGame();
