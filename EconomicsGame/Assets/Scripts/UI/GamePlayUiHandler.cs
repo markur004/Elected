@@ -23,8 +23,14 @@ namespace UI
         {
             foreach (var value in Values)
             {
+                //todo: convert to sliders to avoid weird numbers :D
                 value.text = indexs.GDP.ToString();
             }
+        }
+
+        public void NextRound()
+        {
+            GameManager.Instance.NextTurn();
         }
     }
 }

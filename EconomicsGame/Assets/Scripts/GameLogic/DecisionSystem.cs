@@ -17,7 +17,7 @@ namespace GameLogic
 
         public void DrawEventCard()
         {
-            Debug.Log("DUPA");
+            Debug.Log("Dobiera Karte");
         }
     }
 }
