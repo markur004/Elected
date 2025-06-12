@@ -15,13 +15,13 @@ namespace GameLogic
 
         public Indexs()
         {
-            GDP = Random.Range(30f, 90f);
-            publicSupport = Random.Range(30f, 90f);
-            currencyValue = Random.Range(30f, 90f);
-            budget = Random.Range(-10f, 30f);
+            GDP = Random.Range(2f, 8f);
+            publicSupport = Random.Range(30f, 90f);//silder value
+            currencyValue = Random.Range(30f, 90f);//silder value
+            budget = Random.Range(-60f, 320f);
             population = 31f;
-            corruption = Random.Range(5f, 25f);
-            pollution = Random.Range(10f, 32f);
+            corruption = Random.Range(5f, 25f);//silder value
+            pollution = Random.Range(10f, 32f);//silder value
         }
 
         public bool IsCritical()

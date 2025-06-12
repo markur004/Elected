@@ -7,13 +7,17 @@
     <list default="true" id="45d4e070-bd3d-4725-967b-2eea0134817d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePlayUiHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePlayUiHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2vxSLnP0eIleqCSkOe29J3Bz6b1" />
   <component name="ProjectLevelVcsManager">
@@ -42,7 +46,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\48786\Desktop\RamenSwap\Elected\EconomicsGame -debugCodeOptimization" />
@@ -91,6 +95,7 @@
       <workItem from="1745087187409" duration="3023000" />
       <workItem from="1745228450264" duration="764000" />
       <workItem from="1748428247252" duration="1436000" />
+      <workItem from="1749763370319" duration="1668000" />
     </task>
     <servers />
   </component>
@@ -99,6 +104,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

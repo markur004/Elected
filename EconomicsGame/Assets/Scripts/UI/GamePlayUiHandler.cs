@@ -8,8 +8,7 @@ namespace UI
     
     public class GamePlayUIHandler : MonoBehaviour
     {
-        //position in the list should be the same as Indexs object vaule - big brain programming
-        [SerializeField] private List<Text> Values;
+        [SerializeField] private List<Text> MainLabelValues;
         public static GamePlayUIHandler Instance;
         private void Awake()
         {
@@ -21,11 +20,10 @@ namespace UI
 
         public void SetIndexesUI(Indexs indexs)
         {
-            foreach (var value in Values)
-            {
-                //todo: convert to sliders to avoid weird numbers :D
-                value.text = indexs.GDP.ToString();
-            }
+            MainLabelValues[0].text = ((int)indexs.GDP).ToString() + " bln";
+            MainLabelValues[1].text = ((int)indexs.budget).ToString() + " mld";
+            MainLabelValues[2].text = ((int)indexs.population).ToString() + " mln";
+
         }
 
         public void NextRound()
@@ -33,4 +31,6 @@ namespace UI
             GameManager.Instance.NextTurn();
         }
     }
+
+
 }
