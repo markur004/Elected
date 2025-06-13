@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using GameLogic.CardLogic;
 using UnityEngine;
 
 namespace GameLogic
@@ -17,7 +18,7 @@ namespace GameLogic
 
         public void DrawEventCard()
         {
-            Debug.Log("Dobiera Karte");
+            HandManager.Instance.DrawCard(Cards[0]);
         }
     }
 }
