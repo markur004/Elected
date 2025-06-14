@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: Lorem Ipsum
   description: Lorem Ipsum doloret samet
-  image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: -8847544994205776877, guid: 1b0ec6846ca1f5f498ee8a1e993cd8d1, type: 3}
   decisions: []

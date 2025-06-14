@@ -1,5 +1,6 @@
 using System;
 using GameLogic;
+using GameLogic.CardLogic;
 using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-
     public Indexs CountryStats;
     public int currentTurn = 1;
     private int maxTurns = 16;

@@ -6,7 +6,9 @@ namespace GameLogic.CardLogic
     public class HandManager : MonoBehaviour
     {
             public static HandManager Instance;
-            public Transform handArea; // np. layout group
+            public GameObject newCard;
+            public Transform handArea;
+            public CardDisplay currentCard;
             public GameObject cardPrefab;
             public List<EventCard> cardsInHand = new();
             
@@ -20,8 +22,10 @@ namespace GameLogic.CardLogic
         
             public void DrawCard(EventCard cardData)
             {
-                GameObject newCard = Instantiate(cardPrefab, handArea);
-                newCard.GetComponent<CardDisplay>().SetCard(cardData);
+                Destroy(newCard);
+                newCard = Instantiate(cardPrefab, handArea);
+                currentCard = newCard.GetComponent<CardDisplay>();
+                currentCard.SetCard(cardData);
             }
     }
 }

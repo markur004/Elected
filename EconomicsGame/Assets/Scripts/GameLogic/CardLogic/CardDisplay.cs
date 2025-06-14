@@ -17,6 +17,7 @@ namespace GameLogic.CardLogic
             artwork.sprite = card.image;
             nameText.text = card.title;
             descriptionText.text = card.description;
+            Debug.Log("Clicked on: " + cardData.title);
         }
 
         public void OnClick()
