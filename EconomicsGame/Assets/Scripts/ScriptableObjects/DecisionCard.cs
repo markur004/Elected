@@ -6,7 +6,7 @@ public class EventCard : ScriptableObject
     public string description;
     public Sprite image;
 
-    public Decision[] decisions;
+    public Decision[] decisions = new Decision[3];
 }
 
 [System.Serializable]
@@ -19,4 +19,5 @@ public class Decision
     public float corruptionChange;
     public float budgetChange;
     public float populationChange;
+    public float pollutionChange;
 }

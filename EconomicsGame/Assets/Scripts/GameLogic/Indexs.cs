@@ -24,6 +24,17 @@ namespace GameLogic
             pollution = Random.Range(10f, 32f);//silder value
         }
 
+        public void ApplayChanages(Decision decision)
+        {
+            GDP += decision.GDPChange;
+            publicSupport += decision.publicSupportChange;
+            currencyValue += decision.currencyValueChange;
+            corruption += decision.corruptionChange;
+            population += decision.populationChange;
+            budget += decision.budgetChange;
+            pollution += decision.pollutionChange;
+        }
+
         public bool IsCritical()
         {
             return GDP <= 0 || publicSupport <= 0 || currencyValue <= 0 || corruption >= 100 || budget <= -100 ||

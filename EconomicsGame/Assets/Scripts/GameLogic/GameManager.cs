@@ -30,9 +30,14 @@ public class GameManager : MonoBehaviour
 
     public void NextTurn()
     {
+        if (currentTurn > 1)
+        {
+            Decision decision = DecisionSystem.Instance.CheckDecision();
+            CountryStats.ApplayChanages(decision);
+        }
         currentTurn++;
         GamePlayUIHandler.Instance.SetIndexesUI(CountryStats);
-        if (currentTurn > maxTurns)
+        if (currentTurn > maxTurns || CountryStats.IsCritical())
         {
             EndGame();
         }

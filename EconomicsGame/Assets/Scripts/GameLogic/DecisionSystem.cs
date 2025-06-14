@@ -20,5 +20,10 @@ namespace GameLogic
         {
             HandManager.Instance.DrawCard(Cards[0]);
         }
+
+        public Decision CheckDecision()
+        {
+           return HandManager.Instance.currentCard.ChosenDecision();
+        }
     }
 }

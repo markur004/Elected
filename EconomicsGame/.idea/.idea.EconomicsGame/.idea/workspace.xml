@@ -7,17 +7,21 @@
     <list default="true" id="45d4e070-bd3d-4725-967b-2eea0134817d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CardPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CardPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/HandManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/HandManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DecisionCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DecisionCard.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/UI/Core/ToggleGroup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +104,8 @@
       <workItem from="1748428247252" duration="1436000" />
       <workItem from="1749763370319" duration="2547000" />
       <workItem from="1749813314380" duration="1966000" />
-      <workItem from="1749918140096" duration="1595000" />
+      <workItem from="1749918140096" duration="2019000" />
+      <workItem from="1749933421756" duration="3509000" />
     </task>
     <servers />
   </component>

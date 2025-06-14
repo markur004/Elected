@@ -223,7 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1760841004fbb84398796f5f38c98bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newCard: {fileID: 0}
   handArea: {fileID: 1116849192}
+  currentCard: {fileID: 0}
   cardPrefab: {fileID: 2510440183832757976, guid: 6e5974a79cc4a8c4198400fca8616dc3, type: 3}
   cardsInHand: []
 --- !u!4 &96558445
@@ -382,7 +384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 402, y: 181.2}
+  m_AnchoredPosition: {x: 395.3, y: 181.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380667449
@@ -616,7 +618,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 207.9, y: 181.7}
+  m_AnchoredPosition: {x: 190.8, y: 181.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508008242
