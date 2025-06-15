@@ -9,6 +9,8 @@ namespace UI
     public class GamePlayUIHandler : MonoBehaviour
     {
         [SerializeField] private List<Text> MainLabelValues;
+        [SerializeField] private Slider HappinesSlider;
+        [SerializeField] private Slider CorruptionSlider;
         public static GamePlayUIHandler Instance;
         private void Awake()
         {
@@ -23,7 +25,8 @@ namespace UI
             MainLabelValues[0].text = ((int)indexs.GDP).ToString() + " bln";
             MainLabelValues[1].text = ((int)indexs.budget).ToString() + " mld";
             MainLabelValues[2].text = ((int)indexs.population).ToString() + " mln";
-
+            HappinesSlider.value = indexs.publicSupport;
+            CorruptionSlider.value = indexs.corruption;
         }
 
         public void NextRound()

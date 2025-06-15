@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="45d4e070-bd3d-4725-967b-2eea0134817d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DecisionCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/DecisionCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePlayUiHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePlayUiHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,8 @@
       <workItem from="1749763370319" duration="2547000" />
       <workItem from="1749813314380" duration="1966000" />
       <workItem from="1749918140096" duration="2019000" />
-      <workItem from="1749933421756" duration="3509000" />
+      <workItem from="1749933421756" duration="3805000" />
+      <workItem from="1749989489043" duration="1411000" />
     </task>
     <servers />
   </component>

@@ -26,9 +26,9 @@ MonoBehaviour:
     pollutionChange: 0
   - decisionText: Do this 2
     GDPChange: 10
-    publicSupportChange: 0
+    publicSupportChange: 20
     currencyValueChange: 0
-    corruptionChange: 0
+    corruptionChange: 1
     budgetChange: 0
     populationChange: 0
     pollutionChange: 0
