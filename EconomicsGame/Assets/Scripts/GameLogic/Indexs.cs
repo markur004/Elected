@@ -17,11 +17,11 @@ namespace GameLogic
         {
             GDP = Random.Range(2f, 8f);
             publicSupport = Random.Range(30f, 90f);//silder value
-            currencyValue = Random.Range(30f, 90f);//silder value
+            currencyValue = Random.Range(30f, 90f);//text value
             budget = Random.Range(-60f, 320f);
             population = 31f;
             corruption = Random.Range(5f, 25f);//silder value
-            pollution = Random.Range(10f, 32f);//silder value
+            pollution = Random.Range(10f, 32f);//text value
         }
 
         public void ApplayChanages(Decision decision)

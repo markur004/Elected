@@ -51,8 +51,17 @@ public class GameManager : MonoBehaviour
     private void EndGame()
     {
         Debug.Log("Koniec gry. Wyświetl zakończenie.");
-        //statyczna klasa ktora zwroci jaki ending odgrac albo 3 sceny po gamersku like a boss
-        SceneManager.LoadScene("EndingScene");
+        //statyczna klasa ktora zwroci jaki ending odgrac albo 3 sceny po gamersku like a boss - like a boss B)
+        if (currentTurn < maxTurns)
+        {
+            SceneManager.LoadScene("EndingScene");
+        }
+        else
+        {
+            SceneManager.LoadScene("EndingSceneWon");
+        }
+
+
     }
 }
 
