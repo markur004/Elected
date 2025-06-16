@@ -9,7 +9,8 @@ public class MainMenuHandler : MonoBehaviour
     [SerializeField] private Slider _soundSlider;
     public void PlayButton()
     {
-        SceneManager.LoadScene("GameplayScene");
+        Debug.Log("dupa");
+        SceneManager.LoadScene("IntroScene");
         SoundManager.Instance.ButtonPressed();
     }
 

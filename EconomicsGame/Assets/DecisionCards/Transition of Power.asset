@@ -17,26 +17,26 @@ MonoBehaviour:
   image: {fileID: -38886219210459403, guid: cd6756ddba695e6429e7ae1dc43db430, type: 3}
   decisions:
   - decisionText: Claim emergency powers
-    GDPChange: 0
+    GDPChange: -0.2
     publicSupportChange: -10
-    currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: -5
+    currencyValueChange: -5
+    corruptionChange: 5
+    budgetChange: 10
     populationChange: -5
-    pollutionChange: 0
+    pollutionChange: -2
   - decisionText: Run Election
-    GDPChange: 0
-    publicSupportChange: 5
+    GDPChange: 0.8
+    publicSupportChange: 10
     currencyValueChange: 5
-    corruptionChange: 0
-    budgetChange: -10
-    populationChange: 0
-    pollutionChange: 0
+    corruptionChange: -4
+    budgetChange: -15
+    populationChange: 2
+    pollutionChange: -1
   - decisionText: 'Coup '
-    GDPChange: 0
+    GDPChange: -0.5
     publicSupportChange: 10
     currencyValueChange: -15
-    corruptionChange: 0
-    budgetChange: 10
-    populationChange: 0
-    pollutionChange: -10
+    corruptionChange: 5
+    budgetChange: 15
+    populationChange: -10
+    pollutionChange: 3

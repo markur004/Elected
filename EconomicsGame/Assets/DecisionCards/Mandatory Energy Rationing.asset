@@ -16,25 +16,25 @@ MonoBehaviour:
   description: Drought cripples hydroelectric power, forcing tough energy choices.
   image: {fileID: -8847544994205776877, guid: 1b0ec6846ca1f5f498ee8a1e993cd8d1, type: 3}
   decisions:
-  - decisionText: Implement partial rolling blackouts
-    GDPChange: 0.3
-    publicSupportChange: -5
-    currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: 0
-    populationChange: 0
-    pollutionChange: 0
   - decisionText: Implement rolling blackouts
-    GDPChange: 0
-    publicSupportChange: -8
+    GDPChange: -1.5
+    publicSupportChange: -15
     currencyValueChange: 0
     corruptionChange: 0
     budgetChange: 0
     populationChange: 0
-    pollutionChange: 0
+    pollutionChange: -5
   - decisionText: Increase coal usage temporarily
-    GDPChange: 0.5
-    publicSupportChange: 0
+    GDPChange: 2.2
+    publicSupportChange: -2
+    currencyValueChange: -3
+    corruptionChange: 2
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 14
+  - decisionText: Do nothing
+    GDPChange: -1
+    publicSupportChange: -10
     currencyValueChange: 0
     corruptionChange: 2
     budgetChange: 0

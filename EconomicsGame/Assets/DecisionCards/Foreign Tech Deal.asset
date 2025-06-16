@@ -18,26 +18,26 @@ MonoBehaviour:
   image: {fileID: 2852227968918225709, guid: 1ab52fe4d0c6315479a2ccbb7f66da65, type: 3}
   decisions:
   - decisionText: Accept openly
-    GDPChange: 0.6
+    GDPChange: 2
     publicSupportChange: 0
-    currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: 0
+    currencyValueChange: 2
+    corruptionChange: 3
+    budgetChange: 30
     populationChange: 1
-    pollutionChange: 0
+    pollutionChange: 5
   - decisionText: Strict controls
-    GDPChange: 0.5
+    GDPChange: 1
     publicSupportChange: 0
     currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: -10
+    corruptionChange: -1
+    budgetChange: -20
     populationChange: 0
-    pollutionChange: 0
+    pollutionChange: 1
   - decisionText: Reject deal
-    GDPChange: -0.3
-    publicSupportChange: -2
-    currencyValueChange: 0
-    corruptionChange: 0
+    GDPChange: -1.2
+    publicSupportChange: -4
+    currencyValueChange: -2
+    corruptionChange: -4
     budgetChange: 0
     populationChange: -1
-    pollutionChange: 0
+    pollutionChange: -2

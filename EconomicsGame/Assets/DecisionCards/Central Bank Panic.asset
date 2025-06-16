@@ -18,26 +18,26 @@ MonoBehaviour:
   image: {fileID: -750233185250651363, guid: 2dc33870a390ebb4f937fbcabc7c57e6, type: 3}
   decisions:
   - decisionText: Hike interest rates
-    GDPChange: -0.5
-    publicSupportChange: -4
-    currencyValueChange: 10
+    GDPChange: -2
+    publicSupportChange: -8
+    currencyValueChange: 15
     corruptionChange: 0
     budgetChange: 0
     populationChange: 0
     pollutionChange: 0
   - decisionText: Buy currency reserves
     GDPChange: 0
-    publicSupportChange: -3
-    currencyValueChange: 0
+    publicSupportChange: 1
+    currencyValueChange: 12
     corruptionChange: 0
-    budgetChange: -40
+    budgetChange: -80
     populationChange: 0
     pollutionChange: 0
   - decisionText: Request international help
     GDPChange: 0
-    publicSupportChange: -3
-    currencyValueChange: -2
-    corruptionChange: 0
-    budgetChange: 50
+    publicSupportChange: -6
+    currencyValueChange: -5
+    corruptionChange: 5
+    budgetChange: 70
     populationChange: 0
     pollutionChange: 0

@@ -40,10 +40,5 @@ namespace GameLogic.CardLogic
             }
             return cardData.decisions[0];
         }
-
-        public void OnClick()
-        {
-            Debug.Log("Clicked on: " + cardData.title);
-        }
     }
 }

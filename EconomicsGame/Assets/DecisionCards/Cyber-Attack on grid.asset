@@ -19,25 +19,25 @@ MonoBehaviour:
   decisions:
   - decisionText: Retaliate digitally
     GDPChange: 0
-    publicSupportChange: -4
-    currencyValueChange: -5
+    publicSupportChange: -8
+    currencyValueChange: 2
     corruptionChange: 10
     budgetChange: 0
     populationChange: 0
     pollutionChange: 0
   - decisionText: Isolate systems
-    GDPChange: 0
+    GDPChange: -0.4
     publicSupportChange: 0
     currencyValueChange: 0
-    corruptionChange: -10
-    budgetChange: -10
-    populationChange: 0
+    corruptionChange: -5
+    budgetChange: -30
+    populationChange: -1
     pollutionChange: 0
   - decisionText: Ask NATO remnants
     GDPChange: 0
-    publicSupportChange: -3
-    currencyValueChange: 0
+    publicSupportChange: -5
+    currencyValueChange: 3
     corruptionChange: 5
-    budgetChange: 0
+    budgetChange: -10
     populationChange: 0
     pollutionChange: 0

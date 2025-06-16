@@ -18,15 +18,15 @@ MonoBehaviour:
   decisions:
   - decisionText: Allow referendum
     GDPChange: 0
-    publicSupportChange: 5
-    currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: -10
-    populationChange: 0
+    publicSupportChange: 8
+    currencyValueChange: 2
+    corruptionChange: -2
+    budgetChange: -25
+    populationChange: 1
     pollutionChange: 0
   - decisionText: Delay vote
-    GDPChange: 0
-    publicSupportChange: -4
+    GDPChange: -0.3
+    publicSupportChange: 8
     currencyValueChange: 0
     corruptionChange: -2
     budgetChange: 0
@@ -34,9 +34,9 @@ MonoBehaviour:
     pollutionChange: -5
   - decisionText: Cancel vote
     GDPChange: 0
-    publicSupportChange: -6
-    currencyValueChange: 0
-    corruptionChange: 3
-    budgetChange: 0
+    publicSupportChange: -12
+    currencyValueChange: -3
+    corruptionChange: 6
+    budgetChange: 12
     populationChange: 0
-    pollutionChange: -10
+    pollutionChange: -4

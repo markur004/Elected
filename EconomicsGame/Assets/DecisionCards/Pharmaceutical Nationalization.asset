@@ -18,25 +18,25 @@ MonoBehaviour:
   decisions:
   - decisionText: Nationalize drug manufacturing
     GDPChange: 0
-    publicSupportChange: 2
+    publicSupportChange: 3
     currencyValueChange: 0
-    corruptionChange: 3
-    budgetChange: -30
-    populationChange: 0
+    corruptionChange: 8
+    budgetChange: -60
+    populationChange: 1
     pollutionChange: 0
   - decisionText: Subsidize local startups
-    GDPChange: 0.4
+    GDPChange: 1.2
     publicSupportChange: 0
-    currencyValueChange: 0
+    currencyValueChange: 2
     corruptionChange: 0
-    budgetChange: -20
+    budgetChange: -45
     populationChange: 0
     pollutionChange: 0
   - decisionText: Do nothing
     GDPChange: 0
-    publicSupportChange: -6
+    publicSupportChange: -12
     currencyValueChange: 0
-    corruptionChange: 0
+    corruptionChange: 5
     budgetChange: 0
-    populationChange: 0
+    populationChange: -3
     pollutionChange: 0

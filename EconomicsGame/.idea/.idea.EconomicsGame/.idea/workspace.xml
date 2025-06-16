@@ -6,45 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="45d4e070-bd3d-4725-967b-2eea0134817d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EconomicsGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/TestEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CardDisplay.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndingSceneWon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndingSceneWon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Bonk Market Collapse.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Bonk Market Collapse.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Central Bank Panic.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Central Bank Panic.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Citizen Climate Revolts.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Citizen Climate Revolts.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Cyber-Attack on grid.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Cyber-Attack on grid.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/EU Successor Treaty.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/EU Successor Treaty.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Food Shortages.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Food Shortages.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Foreign Tech Deal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Foreign Tech Deal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Mandatory Energy Rationing.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Mandatory Energy Rationing.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Minister Scandal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Minister Scandal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Pharmaceutical Nationalization.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Pharmaceutical Nationalization.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Return of Conscription.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Return of Conscription.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Rise of a Populist Movement.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Rise of a Populist Movement.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Rural Exodus.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Rural Exodus.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Transition of Power.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Transition of Power.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/Widespread failing banks.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/Widespread failing banks.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DecisionCards/national Referendum Proposal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DecisionCards/national Referendum Proposal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/0001-1307.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/0001-1307.mp4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/THE LAST TERM v1.5 greater compat new colors 1080 (1).mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/THE LAST TERM v1.5 greater compat new colors 1080 (1).mp4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/dupa.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SFX/dupa.mp4.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameplayScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/CardLogic/CardDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/DecisionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/ExitButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/ExitButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Indexs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New Windows Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New Windows Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/background.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/background.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/button_label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/button_label.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/checkmarkicon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/checkmarkicon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/crime.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/crime.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/exitIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/exitIcon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/frame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/frame.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/gradinetSlider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/gradinetSlider.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/happyIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/happyIcon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/label.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/label3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/label3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/labelfixed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/labelfixed.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/menubackground.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/menubackground.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/backgrounds/settingsicon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/backgrounds/settingsicon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/1 energy blackout.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/1 energy blackout.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/2 pharmaceutical nationalization.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/2 pharmaceutical nationalization.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/3 rural exodus.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/3 rural exodus.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/4 central bank panic.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/4 central bank panic.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/5 worker riots.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/5 worker riots.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/6 food shortages.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/6 food shortages.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/7 EU successor.jpeg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/7 EU successor.jpeg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cards/oldpage.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/cards/oldpage.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenuHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MainMenuHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VideoTest.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +45,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/IntroHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogic/ExitButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VideoTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@22ebcc83720a/Runtime/UGUI/UI/Core/ToggleGroup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -141,7 +133,7 @@
       <workItem from="1749933421756" duration="3805000" />
       <workItem from="1749989489043" duration="6872000" />
       <workItem from="1750010892056" duration="5059000" />
-      <workItem from="1750086176401" duration="2047000" />
+      <workItem from="1750086176401" duration="6010000" />
     </task>
     <servers />
   </component>

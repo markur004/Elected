@@ -21,23 +21,23 @@ MonoBehaviour:
     GDPChange: -0.5
     publicSupportChange: 5
     currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: -25
-    populationChange: 0
-    pollutionChange: -3
+    corruptionChange: -3
+    budgetChange: -60
+    populationChange: 1
+    pollutionChange: -6
   - decisionText: Suppress protests
     GDPChange: 0
     publicSupportChange: -10
     currencyValueChange: 0
-    corruptionChange: -2
-    budgetChange: 0
+    corruptionChange: -3
+    budgetChange: -15
     populationChange: -4
     pollutionChange: 10
   - decisionText: Negotiate reforms
     GDPChange: -0.5
     publicSupportChange: 10
-    currencyValueChange: 0
+    currencyValueChange: 1
     corruptionChange: 5
-    budgetChange: 0
+    budgetChange: -15
     populationChange: 1
-    pollutionChange: 5
+    pollutionChange: -3

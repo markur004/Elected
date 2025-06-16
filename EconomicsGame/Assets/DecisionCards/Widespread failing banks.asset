@@ -18,25 +18,25 @@ MonoBehaviour:
   decisions:
   - decisionText: Nationalize failing banks
     GDPChange: 0
-    publicSupportChange: 5
-    currencyValueChange: -5
+    publicSupportChange: 10
+    currencyValueChange: -1
     corruptionChange: 10
-    budgetChange: -40
+    budgetChange: -75
     populationChange: 0
     pollutionChange: 0
   - decisionText: Bail out banks
     GDPChange: 0
-    publicSupportChange: -4
-    currencyValueChange: 0
-    corruptionChange: 0
-    budgetChange: -20
+    publicSupportChange: -5
+    currencyValueChange: 1
+    corruptionChange: 3
+    budgetChange: -55
     populationChange: 0
     pollutionChange: 0
   - decisionText: Let them fail
-    GDPChange: -0.7
-    publicSupportChange: -10
+    GDPChange: -2
+    publicSupportChange: -6
     currencyValueChange: 5
     corruptionChange: 0
     budgetChange: 0
-    populationChange: 0
+    populationChange: -1
     pollutionChange: 0

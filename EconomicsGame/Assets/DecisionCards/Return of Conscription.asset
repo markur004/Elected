@@ -17,26 +17,26 @@ MonoBehaviour:
   image: {fileID: 6989598344785301055, guid: 20bf2e02cd5978c49974628c1181f9e8, type: 3}
   decisions:
   - decisionText: Reinstate conscription
-    GDPChange: 0
-    publicSupportChange: -10
-    currencyValueChange: 0
+    GDPChange: 0.5
+    publicSupportChange: -12
+    currencyValueChange: 2
     corruptionChange: 0
     budgetChange: 0
-    populationChange: 0
-    pollutionChange: 1
+    populationChange: -2
+    pollutionChange: 0
   - decisionText: Volunteers only
     GDPChange: 0
-    publicSupportChange: 0
-    currencyValueChange: 0
+    publicSupportChange: 4
+    currencyValueChange: 1
     corruptionChange: 0
-    budgetChange: 0
+    budgetChange: -8
     populationChange: 0
     pollutionChange: 0
   - decisionText: Citizenship-for-service
     GDPChange: 0
-    publicSupportChange: 5
-    currencyValueChange: 5
-    corruptionChange: 5
-    budgetChange: -10
-    populationChange: 4
+    publicSupportChange: 2
+    currencyValueChange: 3
+    corruptionChange: -4
+    budgetChange: -25
+    populationChange: 3
     pollutionChange: 0

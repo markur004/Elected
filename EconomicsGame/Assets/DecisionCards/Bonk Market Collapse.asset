@@ -17,26 +17,26 @@ MonoBehaviour:
   image: {fileID: 3690286571949676519, guid: 7a02f988afc541143a36219b5fd66a14, type: 3}
   decisions:
   - decisionText: Raise interest rates
-    GDPChange: -0.5
+    GDPChange: -1
     publicSupportChange: -5
-    currencyValueChange: 8
+    currencyValueChange: 14
     corruptionChange: 0
     budgetChange: 10
-    populationChange: 0
-    pollutionChange: 0
+    populationChange: -1
+    pollutionChange: 5
   - decisionText: Monetize debt
-    GDPChange: 0
+    GDPChange: 0.5
     publicSupportChange: 0
-    currencyValueChange: -5
-    corruptionChange: 5
-    budgetChange: -20
+    currencyValueChange: -8
+    corruptionChange: 6
+    budgetChange: -50
     populationChange: 0
-    pollutionChange: 0
+    pollutionChange: 4
   - decisionText: Ban capital flight
-    GDPChange: 1
-    publicSupportChange: -4
-    currencyValueChange: -5
+    GDPChange: -0.2
+    publicSupportChange: -6
+    currencyValueChange: -6
     corruptionChange: 5
-    budgetChange: 5
+    budgetChange: 10
     populationChange: 0
-    pollutionChange: 0
+    pollutionChange: -2

@@ -18,25 +18,25 @@ MonoBehaviour:
   decisions:
   - decisionText: Tax breaks for rural living
     GDPChange: 0
-    publicSupportChange: 4
+    publicSupportChange: 7
     currencyValueChange: 0
     corruptionChange: 0
-    budgetChange: -15
-    populationChange: 0
+    budgetChange: -35
+    populationChange: 2
     pollutionChange: 0
   - decisionText: Build urban housing
     GDPChange: 0
-    publicSupportChange: 5
+    publicSupportChange: 10
     currencyValueChange: 0
     corruptionChange: 0
-    budgetChange: -25
+    budgetChange: -50
     populationChange: 0
-    pollutionChange: 3
+    pollutionChange: 6
   - decisionText: Relocate gov offices to small cities
     GDPChange: 0
     publicSupportChange: 0
     currencyValueChange: 0
-    corruptionChange: 3
-    budgetChange: 0
+    corruptionChange: 8
+    budgetChange: -20
     populationChange: 0
-    pollutionChange: 0
+    pollutionChange: -2

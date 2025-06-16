@@ -20,7 +20,6 @@ namespace GameLogic
         {
             int i = Random.Range(0, Cards.Count);
             EventCard card = Cards[i];
-            Debug.Log(card.title);
             HandManager.Instance.DrawCard(card);
             Cards.RemoveAt(i);
         }

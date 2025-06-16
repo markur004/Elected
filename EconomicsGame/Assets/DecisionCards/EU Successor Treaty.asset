@@ -18,26 +18,26 @@ MonoBehaviour:
   image: {fileID: -8143712091013929268, guid: b14cea096fdde934eb1c0afc68e03178, type: 3}
   decisions:
   - decisionText: Join and adopt mutual defense
-    GDPChange: 2
+    GDPChange: 0.5
     publicSupportChange: 5
-    currencyValueChange: 0
+    currencyValueChange: 2
     corruptionChange: -2
-    budgetChange: -10
+    budgetChange: -25
     populationChange: 2
-    pollutionChange: 0
+    pollutionChange: -1
   - decisionText: Stay independent
-    GDPChange: 0
+    GDPChange: 0.5
     publicSupportChange: 10
-    currencyValueChange: -5
+    currencyValueChange: -6
     corruptionChange: 0
     budgetChange: 0
     populationChange: -2
     pollutionChange: 0
   - decisionText: Join with reservations
-    GDPChange: -0.2
-    publicSupportChange: -5
-    currencyValueChange: -0.2
+    GDPChange: -1
+    publicSupportChange: -1
+    currencyValueChange: 3
     corruptionChange: 0
-    budgetChange: 5
+    budgetChange: -10
     populationChange: 0
     pollutionChange: 0

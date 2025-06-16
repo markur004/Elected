@@ -18,25 +18,25 @@ MonoBehaviour:
   decisions:
   - decisionText: Seize farmland from oligarchs
     GDPChange: 0
-    publicSupportChange: -5
+    publicSupportChange: -10
     currencyValueChange: 0
-    corruptionChange: -4
-    budgetChange: -20
-    populationChange: 0
+    corruptionChange: -8
+    budgetChange: -50
+    populationChange: 1
     pollutionChange: 0
   - decisionText: Urban farming zones
-    GDPChange: 0
-    publicSupportChange: 4
+    GDPChange: 0.5
+    publicSupportChange: 6
     currencyValueChange: 0
     corruptionChange: 0
-    budgetChange: -10
-    populationChange: 0
+    budgetChange: -30
+    populationChange: -3
     pollutionChange: 0
   - decisionText: Ration card system
     GDPChange: 0
-    publicSupportChange: -8
+    publicSupportChange: -12
     currencyValueChange: 0
-    corruptionChange: 0
+    corruptionChange: -2
     budgetChange: 5
     populationChange: -2
     pollutionChange: 0

@@ -18,26 +18,26 @@ MonoBehaviour:
   image: {fileID: -4277313050468005072, guid: 3f9e5a906651d3a4daf0ead92bc68fee, type: 3}
   decisions:
   - decisionText: Fire & prosecute
-    GDPChange: 0
-    publicSupportChange: 10
-    currencyValueChange: 0
+    GDPChange: -0.2
+    publicSupportChange: 6
+    currencyValueChange: 2
     corruptionChange: -10
     budgetChange: 0
-    populationChange: 0
+    populationChange: 1
     pollutionChange: 0
   - decisionText: Cover up
     GDPChange: 0
     publicSupportChange: -10
-    currencyValueChange: 0
+    currencyValueChange: -3
     corruptionChange: 10
-    budgetChange: 0
-    populationChange: 0
+    budgetChange: -10
+    populationChange: -1
     pollutionChange: 0
   - decisionText: Quiet investigation
     GDPChange: 0
-    publicSupportChange: 0
+    publicSupportChange: -3
     currencyValueChange: 0
     corruptionChange: 5
-    budgetChange: 0
+    budgetChange: -5
     populationChange: 0
     pollutionChange: 0

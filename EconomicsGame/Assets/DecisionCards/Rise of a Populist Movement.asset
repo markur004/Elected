@@ -17,26 +17,26 @@ MonoBehaviour:
   image: {fileID: -6905936521075521457, guid: 98a4341b47b1a0448a82160f02fe74f1, type: 3}
   decisions:
   - decisionText: Crack down on disinfo
-    GDPChange: 0
-    publicSupportChange: -5
-    currencyValueChange: 0
-    corruptionChange: 0
+    GDPChange: 0.3
+    publicSupportChange: -12
+    currencyValueChange: 3
+    corruptionChange: 6
     budgetChange: 0
     populationChange: 0
     pollutionChange: 0
   - decisionText: Engage in dialogue
     GDPChange: 0
-    publicSupportChange: 4
+    publicSupportChange: 8
     currencyValueChange: 0
-    corruptionChange: -2
-    budgetChange: 0
+    corruptionChange: -5
+    budgetChange: -10
     populationChange: 0
     pollutionChange: 0
   - decisionText: Allow space freely
-    GDPChange: 0
-    publicSupportChange: 3
-    currencyValueChange: 0
-    corruptionChange: 2
+    GDPChange: -0.4
+    publicSupportChange: 5
+    currencyValueChange: -2
+    corruptionChange: 5
     budgetChange: 0
     populationChange: 0
     pollutionChange: 0
