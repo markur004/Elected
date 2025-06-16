@@ -6,6 +6,7 @@ using UnityEngine.Video;
 public class IntroHandler : MonoBehaviour
 {
     [SerializeField] private VideoPlayer _player;
+    [SerializeField] private GameObject _krystianLis;
     void Start()
     {
         _player.Prepare();
@@ -21,5 +22,10 @@ public class IntroHandler : MonoBehaviour
     void OnVideoPrepared(VideoPlayer vp)
     {
         vp.Play();
+    }
+    
+    public void EasterEgg()
+    {
+        _krystianLis.SetActive(true);
     }
 }

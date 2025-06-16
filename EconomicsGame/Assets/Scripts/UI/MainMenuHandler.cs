@@ -7,9 +7,9 @@ public class MainMenuHandler : MonoBehaviour
 {
     [SerializeField] private GameObject _optionsPanel;
     [SerializeField] private Slider _soundSlider;
+    [SerializeField] private GameObject _instructionsPanel;
     public void PlayButton()
     {
-        Debug.Log("dupa");
         SceneManager.LoadScene("IntroScene");
         SoundManager.Instance.ButtonPressed();
     }
@@ -36,5 +36,15 @@ public class MainMenuHandler : MonoBehaviour
     {
         SoundManager.Instance.ButtonPressed();
         Application.Quit();
+    }
+
+    public void OpenInstructions()
+    {
+        _instructionsPanel.SetActive(true);
+    }
+    
+    public void CloseInstructions()
+    {
+        _instructionsPanel.SetActive(false);
     }
 }
