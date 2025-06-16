@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Citizen Climate Revolts
+  m_EditorClassIdentifier: 
+  title: Citizen Climate Revolts
+  description: Mass youth-led protests erupt over government inaction on climate
+    change.
+  image: {fileID: 1355803246727423216, guid: 955eddbdbc4cdba479ddd69b22f1dac3, type: 3}
+  decisions:
+  - decisionText: Increase green spending
+    GDPChange: -0.5
+    publicSupportChange: 5
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: -25
+    populationChange: 0
+    pollutionChange: -3
+  - decisionText: Suppress protests
+    GDPChange: 0
+    publicSupportChange: -10
+    currencyValueChange: 0
+    corruptionChange: -2
+    budgetChange: 0
+    populationChange: -4
+    pollutionChange: 10
+  - decisionText: Negotiate reforms
+    GDPChange: -0.5
+    publicSupportChange: 10
+    currencyValueChange: 0
+    corruptionChange: 5
+    budgetChange: 0
+    populationChange: 1
+    pollutionChange: 5

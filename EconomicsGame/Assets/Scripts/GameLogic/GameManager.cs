@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public Indexs CountryStats;
     public int currentTurn = 1;
-    private int maxTurns = 16;
+    private int maxTurns = 12;
 
 
 
@@ -47,7 +47,6 @@ public class GameManager : MonoBehaviour
             DecisionSystem.Instance.DrawEventCard();
         }
     }
-
     private void EndGame()
     {
         Debug.Log("Koniec gry. Wyświetl zakończenie.");

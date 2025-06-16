@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Widespread failing banks
+  m_EditorClassIdentifier: 
+  title: Widespread Bank Failures
+  description: A financial meltdown triggers panic as major banks collapse.
+  image: {fileID: -4524202430449542754, guid: 3c65deb515791e446ba3a62ea657c9a8, type: 3}
+  decisions:
+  - decisionText: Nationalize failing banks
+    GDPChange: 0
+    publicSupportChange: 5
+    currencyValueChange: -5
+    corruptionChange: 10
+    budgetChange: -40
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Bail out banks
+    GDPChange: 0
+    publicSupportChange: -4
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: -20
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Let them fail
+    GDPChange: -0.7
+    publicSupportChange: -10
+    currencyValueChange: 5
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0

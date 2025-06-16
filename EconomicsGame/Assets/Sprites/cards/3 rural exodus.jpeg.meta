@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3 rural exodus_0: 962474539373231592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

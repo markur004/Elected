@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      4 central bank panic_0: -750233185250651363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

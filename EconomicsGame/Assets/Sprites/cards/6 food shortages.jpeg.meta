@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      6 food shortages_0: 7678260225434588308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

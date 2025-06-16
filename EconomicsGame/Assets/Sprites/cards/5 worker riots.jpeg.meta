@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      5 worker riots_0: -6905936521075521457
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Cyber-Attack on grid
+  m_EditorClassIdentifier: 
+  title: Cyber-Attack on Grid
+  description: A foreign cyberattack disables the national power grid, prompting
+    calls for response.
+  image: {fileID: 2520299577701381646, guid: bf4f7ade878567c43b1de757463c79db, type: 3}
+  decisions:
+  - decisionText: Retaliate digitally
+    GDPChange: 0
+    publicSupportChange: -4
+    currencyValueChange: -5
+    corruptionChange: 10
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Isolate systems
+    GDPChange: 0
+    publicSupportChange: 0
+    currencyValueChange: 0
+    corruptionChange: -10
+    budgetChange: -10
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Ask NATO remnants
+    GDPChange: 0
+    publicSupportChange: -3
+    currencyValueChange: 0
+    corruptionChange: 5
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0

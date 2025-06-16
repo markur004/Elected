@@ -10,31 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
-  m_Name: TestEvent
+  m_Name: Pharmaceutical Nationalization
   m_EditorClassIdentifier: 
-  title: Lorem Ipsum
-  description: Lorem Ipsum doloret samet
-  image: {fileID: -8847544994205776877, guid: 1b0ec6846ca1f5f498ee8a1e993cd8d1, type: 3}
+  title: Pharmaceutical Nationalization
+  description: Foreign drug companies withdraw, creating a critical medication shortage.
+  image: {fileID: 6332947954068238861, guid: 3325d210cf23c684896b539a9e2aecf9, type: 3}
   decisions:
-  - decisionText: Do this
-    GDPChange: 5
+  - decisionText: Nationalize drug manufacturing
+    GDPChange: 0
+    publicSupportChange: 2
+    currencyValueChange: 0
+    corruptionChange: 3
+    budgetChange: -30
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Subsidize local startups
+    GDPChange: 0.4
     publicSupportChange: 0
     currencyValueChange: 0
     corruptionChange: 0
-    budgetChange: 0
+    budgetChange: -20
     populationChange: 0
     pollutionChange: 0
-  - decisionText: Do this 2
-    GDPChange: 10
-    publicSupportChange: 20
-    currencyValueChange: 0
-    corruptionChange: 1
-    budgetChange: 0
-    populationChange: 0
-    pollutionChange: 0
-  - decisionText: Do this 3
-    GDPChange: -10
-    publicSupportChange: 0
+  - decisionText: Do nothing
+    GDPChange: 0
+    publicSupportChange: -6
     currencyValueChange: 0
     corruptionChange: 0
     budgetChange: 0

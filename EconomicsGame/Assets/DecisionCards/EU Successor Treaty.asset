@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: EU Successor Treaty
+  m_EditorClassIdentifier: 
+  title: EU Successor Treaty
+  description: A new European coalition invites your country to join its defense
+    pact.
+  image: {fileID: -8143712091013929268, guid: b14cea096fdde934eb1c0afc68e03178, type: 3}
+  decisions:
+  - decisionText: Join and adopt mutual defense
+    GDPChange: 2
+    publicSupportChange: 5
+    currencyValueChange: 0
+    corruptionChange: -2
+    budgetChange: -10
+    populationChange: 2
+    pollutionChange: 0
+  - decisionText: Stay independent
+    GDPChange: 0
+    publicSupportChange: 10
+    currencyValueChange: -5
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: -2
+    pollutionChange: 0
+  - decisionText: Join with reservations
+    GDPChange: -0.2
+    publicSupportChange: -5
+    currencyValueChange: -0.2
+    corruptionChange: 0
+    budgetChange: 5
+    populationChange: 0
+    pollutionChange: 0

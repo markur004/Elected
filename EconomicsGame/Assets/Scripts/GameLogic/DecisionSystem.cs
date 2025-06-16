@@ -7,7 +7,7 @@ namespace GameLogic
     public class DecisionSystem : MonoBehaviour
     {
         public static DecisionSystem Instance;
-        [SerializeField]private List<EventCard> Cards;
+        [SerializeField]public List<EventCard> Cards;
         private void Awake()
         {
             if (Instance == null) Instance = this;
@@ -18,7 +18,11 @@ namespace GameLogic
 
         public void DrawEventCard()
         {
-            HandManager.Instance.DrawCard(Cards[0]);
+            int i = Random.Range(0, Cards.Count);
+            EventCard card = Cards[i];
+            Debug.Log(card.title);
+            HandManager.Instance.DrawCard(card);
+            Cards.RemoveAt(i);
         }
 
         public Decision CheckDecision()

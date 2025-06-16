@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Return of Conscription
+  m_EditorClassIdentifier: 
+  title: Return of Conscription
+  description: Military manpower shortages revive debate over mandatory service.
+  image: {fileID: 6989598344785301055, guid: 20bf2e02cd5978c49974628c1181f9e8, type: 3}
+  decisions:
+  - decisionText: Reinstate conscription
+    GDPChange: 0
+    publicSupportChange: -10
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 1
+  - decisionText: Volunteers only
+    GDPChange: 0
+    publicSupportChange: 0
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Citizenship-for-service
+    GDPChange: 0
+    publicSupportChange: 5
+    currencyValueChange: 5
+    corruptionChange: 5
+    budgetChange: -10
+    populationChange: 4
+    pollutionChange: 0

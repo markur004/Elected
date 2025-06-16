@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Food Shortages
+  m_EditorClassIdentifier: 
+  title: Food Shortages
+  description: With grain imports halted, the nation faces urgent food insecurity.
+  image: {fileID: 7678260225434588308, guid: 43a88b1682a333e4aa9a4f3f2362a808, type: 3}
+  decisions:
+  - decisionText: Seize farmland from oligarchs
+    GDPChange: 0
+    publicSupportChange: -5
+    currencyValueChange: 0
+    corruptionChange: -4
+    budgetChange: -20
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Urban farming zones
+    GDPChange: 0
+    publicSupportChange: 4
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: -10
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Ration card system
+    GDPChange: 0
+    publicSupportChange: -8
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 5
+    populationChange: -2
+    pollutionChange: 0

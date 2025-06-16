@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Central Bank Panic
+  m_EditorClassIdentifier: 
+  title: Central Bank Panic
+  description: A currency crisis erupts as investors flee and pressure mounts on
+    the central bank.
+  image: {fileID: -750233185250651363, guid: 2dc33870a390ebb4f937fbcabc7c57e6, type: 3}
+  decisions:
+  - decisionText: Hike interest rates
+    GDPChange: -0.5
+    publicSupportChange: -4
+    currencyValueChange: 10
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Buy currency reserves
+    GDPChange: 0
+    publicSupportChange: -3
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: -40
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Request international help
+    GDPChange: 0
+    publicSupportChange: -3
+    currencyValueChange: -2
+    corruptionChange: 0
+    budgetChange: 50
+    populationChange: 0
+    pollutionChange: 0

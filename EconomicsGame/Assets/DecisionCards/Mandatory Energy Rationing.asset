@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Mandatory Energy Rationing
+  m_EditorClassIdentifier: 
+  title: Mandatory Energy Rationing
+  description: Drought cripples hydroelectric power, forcing tough energy choices.
+  image: {fileID: -8847544994205776877, guid: 1b0ec6846ca1f5f498ee8a1e993cd8d1, type: 3}
+  decisions:
+  - decisionText: Implement partial rolling blackouts
+    GDPChange: 0.3
+    publicSupportChange: -5
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Implement rolling blackouts
+    GDPChange: 0
+    publicSupportChange: -8
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Increase coal usage temporarily
+    GDPChange: 0.5
+    publicSupportChange: 0
+    currencyValueChange: 0
+    corruptionChange: 2
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 5

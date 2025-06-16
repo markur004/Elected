@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Minister Scandal
+  m_EditorClassIdentifier: 
+  title: Minister Scandal
+  description: The Health Minister is exposed in a corruption scandal involving public
+    funds.
+  image: {fileID: -4277313050468005072, guid: 3f9e5a906651d3a4daf0ead92bc68fee, type: 3}
+  decisions:
+  - decisionText: Fire & prosecute
+    GDPChange: 0
+    publicSupportChange: 10
+    currencyValueChange: 0
+    corruptionChange: -10
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Cover up
+    GDPChange: 0
+    publicSupportChange: -10
+    currencyValueChange: 0
+    corruptionChange: 10
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Quiet investigation
+    GDPChange: 0
+    publicSupportChange: 0
+    currencyValueChange: 0
+    corruptionChange: 5
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0

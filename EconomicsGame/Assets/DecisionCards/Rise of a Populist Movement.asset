@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Rise of a Populist Movement
+  m_EditorClassIdentifier: 
+  title: Rise of a Populist Movement
+  description: Nationwide labor unrest turns violent amid demands for higher wages.
+  image: {fileID: -6905936521075521457, guid: 98a4341b47b1a0448a82160f02fe74f1, type: 3}
+  decisions:
+  - decisionText: Crack down on disinfo
+    GDPChange: 0
+    publicSupportChange: -5
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Engage in dialogue
+    GDPChange: 0
+    publicSupportChange: 4
+    currencyValueChange: 0
+    corruptionChange: -2
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: Allow space freely
+    GDPChange: 0
+    publicSupportChange: 3
+    currencyValueChange: 0
+    corruptionChange: 2
+    budgetChange: 0
+    populationChange: 0
+    pollutionChange: 0

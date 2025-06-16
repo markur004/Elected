@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615cae2e09fece148bb7c73bc21800b3, type: 3}
+  m_Name: Transition of Power
+  m_EditorClassIdentifier: 
+  title: Goverment Election
+  description: It's time for national goverment election
+  image: {fileID: -38886219210459403, guid: cd6756ddba695e6429e7ae1dc43db430, type: 3}
+  decisions:
+  - decisionText: Claim emergency powers
+    GDPChange: 0
+    publicSupportChange: -10
+    currencyValueChange: 0
+    corruptionChange: 0
+    budgetChange: -5
+    populationChange: -5
+    pollutionChange: 0
+  - decisionText: Run Election
+    GDPChange: 0
+    publicSupportChange: 5
+    currencyValueChange: 5
+    corruptionChange: 0
+    budgetChange: -10
+    populationChange: 0
+    pollutionChange: 0
+  - decisionText: 'Coup '
+    GDPChange: 0
+    publicSupportChange: 10
+    currencyValueChange: -15
+    corruptionChange: 0
+    budgetChange: 10
+    populationChange: 0
+    pollutionChange: -10
